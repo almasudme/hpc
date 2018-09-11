@@ -1,0 +1,28 @@
+CC=icl
+trap: main.obj trap.obj func.obj
+
+clean:
+	rm -f main main.obj trap.obj func.obj
+
+
+
+# Use Intel C .objmpiler 
+  CC = icc 
+
+# Compile-time flags 
+  
+all: trap 
+
+trap: main.obj trap.obj func.obj
+    $(CC) main.obj trap.obj func.obj -o trap
+
+main.obj: main.c
+    $(CC) -c $(CFLAGS) main.c 
+
+trap.obj: trap.c
+    $(CC) -c  $(CFLAGS) trap.c 
+
+func.obj: func.c
+    $(CC) -c  $(CFLAGS) func.c 
+
+clean: rm -rf *.obj trap
