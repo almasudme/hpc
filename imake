@@ -1,3 +1,6 @@
+# To invoke this make apply
+#     nmake -f imake
+
 CC=icl
 trap: main.obj trap.obj func.obj
 
