@@ -9,7 +9,7 @@ clean:
 
 
 
-# Use Intel C .objmpiler 
+# Use Intel C compiler 
   CC = icc 
 
 # Compile-time flags 
