@@ -12,7 +12,7 @@ Plan is to articulate follwoing topics.
 Please check the hardware, software and other development tools requirement for your need on intel's webpage.
 
 For my system which has 16 GB RAM, and a 2.1GHz quad core Intel Core i-5. Install the following tools. form the corresponding website.
-1. Microsoft Visual Studio 2019 (Community Edition). 
+1. [Microsoft Visual Studio] 2019 (Community Edition) (https://visualstudio.microsoft.com/downloads/). 
     We will only select Desktop development with C++ set of tools in our installation.
 2. Intel OneAPI Base toolkit
 3. Intel OneAPI HPC Toolkit 
