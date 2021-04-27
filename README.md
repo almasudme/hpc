@@ -14,8 +14,8 @@ Please check the hardware, software and other development tools requirement for 
 For my system which has 16 GB RAM, and a 2.1GHz quad core Intel Core i-5. Install the following tools. form the corresponding website.
 1. [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/)2019 (Community Edition) . 
     We will only select Desktop development with C++ set of tools in our installation.
-2. Intel OneAPI Base toolkit
-3. Intel OneAPI HPC Toolkit 
+2. [Intel OneAPI Base toolkit](https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html)
+3. [Intel OneAPI HPC Toolkit ](https://software.intel.com/content/www/us/en/develop/tools/oneapi/hpc-toolkit/download.html)
 
 We need to install both base and hpc toolkit from intel oneapi website . One has to have or create an account  be able to download . Selet appropriate OS, installer type etc. on the webpage. The appropriate download button will show up. Just click it.
 
@@ -30,8 +30,8 @@ This will set all environment variables and paths needed for compiling and runni
 ## MPI: Compile and Run your first program.
 Let us write our first MPI program. Here is mphello.c Hello World program program using MPI.
        
-#include &ltmpi.h&gt
-#include &ltstdio&gt
+#include <mpi.h>
+#include <stdio.h>
 /*mphello.c: Hello World program program using MPI.*/
 
 int main(int argc, char** argv) {
