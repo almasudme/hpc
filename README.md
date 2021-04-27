@@ -29,7 +29,9 @@ After download is complete the installations are straightforward. Just keep clic
 This will set all environment variables and paths needed for compiling and running a program with MPI.
 ## MPI: Compile and Run your first program.
 Let us write our first MPI program. Here is mphello.c Hello World program program using MPI.
-       
+
+```markdown
+
 #include <mpi.h>
 #include <stdio.h>
 /*mphello.c: Hello World program program using MPI.*/
@@ -59,7 +61,7 @@ int main(int argc, char** argv) {
     MPI_Finalize();
 }
        
- 
+``` 
 Note: It will help to go through the explanation of the above code in Dr. Wes Kendall's original website. 
 
 To compile the program:
