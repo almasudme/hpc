@@ -7,7 +7,7 @@ Plan is to articulate follwoing topics.
 3. improve algorithm to solve linear system of equation using Gallerkin Method
 4. some enhanced feature of MPI
 
-Download and install Intel MPI
+## Download and install Intel MPI
 
 Please check the hardware, software and other development tools requirement for your need on intel's webpage.
 
@@ -27,7 +27,7 @@ After download is complete the installations are straightforward. Just keep clic
          
    
 This will set all environment variables and paths needed for compiling and running a program with MPI.
-MPI: Compile and Run your first program.
+## MPI: Compile and Run your first program.
 Let us write our first MPI program. Here is mphello.c Hello World program program using MPI.
        
 #include &ltmpi.h&gt
